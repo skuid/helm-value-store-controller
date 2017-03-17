@@ -1,0 +1,729 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "K4ks8YKQ9QV4zXmtLDA+W18HHHg=",
+			"path": "github.com/Masterminds/semver",
+			"revision": "312afcd0e81e5cf81fdc3cfd0e8504ae031521c8",
+			"revisionTime": "2017-03-13T21:47:05Z"
+		},
+		{
+			"checksumSHA1": "+dAuIRUSZ42xN58jIj4413zBpWw=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws",
+			"path": "github.com/aws/aws-sdk-go/aws",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Y9W+4GimK4Fuxq+vyIskVYFRnX4=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/awserr",
+			"path": "github.com/aws/aws-sdk-go/aws/awserr",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "yyYr41HZ1Aq0hWc3J5ijXwYEcac=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/awsutil",
+			"path": "github.com/aws/aws-sdk-go/aws/awsutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "7cQU8tU9hBgsG23XZmko1GePqjQ=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/client",
+			"path": "github.com/aws/aws-sdk-go/aws/client",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "ieAJ+Cvp/PKv1LpUEnUXpc3OI6E=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/client/metadata",
+			"path": "github.com/aws/aws-sdk-go/aws/client/metadata",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Fl8vRSCY0MbM04cmiz/0MID+goA=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/corehandlers",
+			"path": "github.com/aws/aws-sdk-go/aws/corehandlers",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "zu5C95rmCZff6NYZb62lEaT5ibE=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/credentials",
+			"path": "github.com/aws/aws-sdk-go/aws/credentials",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "u3GOAJLmdvbuNUeUEcZSEAOeL/0=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
+			"path": "github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "NUJUTWlc1sV8b7WjfiYc4JZbXl0=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/credentials/endpointcreds",
+			"path": "github.com/aws/aws-sdk-go/aws/credentials/endpointcreds",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "4Ipx+5xN0gso+cENC2MHMWmQlR4=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/credentials/stscreds",
+			"path": "github.com/aws/aws-sdk-go/aws/credentials/stscreds",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "lqh3fG7wCochvB4iHAZJuhhEJW0=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/defaults",
+			"path": "github.com/aws/aws-sdk-go/aws/defaults",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "/EXbk/z2TWjWc1Hvb4QYs3Wmhb8=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/ec2metadata",
+			"path": "github.com/aws/aws-sdk-go/aws/ec2metadata",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "ielGoJtV7d3uy8ppaPofjAMuAZM=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/endpoints",
+			"path": "github.com/aws/aws-sdk-go/aws/endpoints",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "M78rTxU55Qagqr3MYj91im2031E=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/request",
+			"path": "github.com/aws/aws-sdk-go/aws/request",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "HynfxYegMG8sq9MpFfPu7h1EOvI=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/session",
+			"path": "github.com/aws/aws-sdk-go/aws/session",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "0FvPLvkBUpTElfUc/FZtPsJfuV0=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/aws/signer/v4",
+			"path": "github.com/aws/aws-sdk-go/aws/signer/v4",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "wk7EyvDaHwb5qqoOP/4d3cV0708=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol",
+			"path": "github.com/aws/aws-sdk-go/private/protocol",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "b7xeY3whqyXRFakWvUkP5sifXt8=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/json/jsonutil",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/json/jsonutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "R00RL5jJXRYq1iiK1+PGvMfvXyM=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/jsonrpc",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/jsonrpc",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "ZqY5RWavBLWTo6j9xqdyBEaNFRk=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/query",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/query",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "hqTEmgtchF9SwVTW0IQId2eLUKM=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/query/queryutil",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/query/queryutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "szZSLm3BlYkL3vqlZhNAlYk8iwM=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/rest",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/rest",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "lZ1z4xAbT8euCzKoAsnEYic60VE=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
+			"path": "github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Eo9yODN5U99BK0pMzoqnBm7PCrY=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/private/waiter",
+			"path": "github.com/aws/aws-sdk-go/private/waiter",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "BSTLokvCzt+X8GplBhWAQA+C6qI=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/service/dynamodb",
+			"path": "github.com/aws/aws-sdk-go/service/dynamodb",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "mTYnOiyBDqdeG6pBQi8FRbHO7Qg=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/aws/aws-sdk-go/service/sts",
+			"path": "github.com/aws/aws-sdk-go/service/sts",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "spyv5/YFBjYyZLZa1U2LBfDR8PM=",
+			"path": "github.com/beorn7/perks/quantile",
+			"revision": "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9",
+			"revisionTime": "2016-08-04T10:47:26Z"
+		},
+		{
+			"checksumSHA1": "pNgZdLLrOLbAc6uVni/v23H4/Rg=",
+			"origin": "k8s.io/kubernetes/vendor/github.com/blang/semver",
+			"path": "github.com/blang/semver",
+			"revision": "7243c69eb523aa4377bce883e7c0dd76b84709a1",
+			"revisionTime": "2017-03-07T23:32:43Z"
+		},
+		{
+			"checksumSHA1": "muGVyM8mY3/gcap6kr4Ib3F5Xn4=",
+			"path": "github.com/ghodss/yaml",
+			"revision": "04f313413ffd65ce25f2541bfd2b2ceec5c0908c",
+			"revisionTime": "2016-12-07T00:33:20Z"
+		},
+		{
+			"checksumSHA1": "w4ksomRMCZjbwnPupNvmTt5E6v8=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/go-ini/ini",
+			"path": "github.com/go-ini/ini",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "/RE0VzeaXdaBUNeNMUXWqzly7qY=",
+			"path": "github.com/gobwas/glob",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "OIV3k+Xbx7u4rP0TSgxzY2Xn4MI=",
+			"path": "github.com/gobwas/glob/compiler",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "WHQ6bs/IWj0Oj2FMVR5uis5FWno=",
+			"path": "github.com/gobwas/glob/match",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "2KhDNUE98XhHnIgg2S9E4gcWoig=",
+			"path": "github.com/gobwas/glob/syntax",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "0aauhx71LcqUSUbdb/mr8DC0XCw=",
+			"path": "github.com/gobwas/glob/syntax/ast",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "umyztSrQrQIl9JgwhDDb6wrSLeI=",
+			"path": "github.com/gobwas/glob/syntax/lexer",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "vux29fN5O22F3QPLOnjQ37278vg=",
+			"path": "github.com/gobwas/glob/util/runes",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "O8jtulDdZMB+CdlRORLultMKQrE=",
+			"path": "github.com/gobwas/glob/util/strings",
+			"revision": "51eb1ee00b6d931c66d229ceeb7c31b985563420",
+			"revisionTime": "2017-02-12T20:01:51Z"
+		},
+		{
+			"checksumSHA1": "URsJa4y/sUUw/STmbeYx9EKqaYE=",
+			"origin": "k8s.io/kubernetes/vendor/github.com/golang/glog",
+			"path": "github.com/golang/glog",
+			"revision": "7243c69eb523aa4377bce883e7c0dd76b84709a1",
+			"revisionTime": "2017-03-07T23:32:43Z"
+		},
+		{
+			"checksumSHA1": "kBeNcaKk56FguvPSUCEaH6AxpRc=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "c9c7427a2a70d2eb3bafa0ab2dc163e45f143317",
+			"revisionTime": "2017-03-07T00:15:33Z"
+		},
+		{
+			"checksumSHA1": "lZFWy27Qo6+m/keDjNFYTxSmvZw=",
+			"path": "github.com/golang/protobuf/ptypes/any",
+			"revision": "c9c7427a2a70d2eb3bafa0ab2dc163e45f143317",
+			"revisionTime": "2017-03-07T00:15:33Z"
+		},
+		{
+			"checksumSHA1": "sfoot+dHmmOgWZS6GJ5X79ClZM0=",
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": "c9c7427a2a70d2eb3bafa0ab2dc163e45f143317",
+			"revisionTime": "2017-03-07T00:15:33Z"
+		},
+		{
+			"checksumSHA1": "0ZrwvB6KoGPj2PoDNSEJwxQ6Mog=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/jmespath/go-jmespath",
+			"path": "github.com/jmespath/go-jmespath",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "lg4GPOVPcFfS5n4E+TPa8jO5M+4=",
+			"origin": "github.com/skuid/helm-value-store/vendor/github.com/kubernetes/helm/cmd/helm/downloader",
+			"path": "github.com/kubernetes/helm/cmd/helm/downloader",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "bKMZjd2wPw13VwoE7mBeSv5djFA=",
+			"path": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"revision": "c12348ce28de40eed0136aa2b644d0ee0650e56c",
+			"revisionTime": "2016-04-24T11:30:07Z"
+		},
+		{
+			"checksumSHA1": "/j0HRFJPThv7HEkZZ/gurf+5fQI=",
+			"path": "github.com/prometheus/client_golang/prometheus",
+			"revision": "575f371f7862609249a1be4c9145f429fe065e32",
+			"revisionTime": "2016-11-24T15:57:32Z"
+		},
+		{
+			"checksumSHA1": "lG3//eDlwqA4IOuAPrNtLh9G0TA=",
+			"path": "github.com/prometheus/client_golang/prometheus/promhttp",
+			"revision": "575f371f7862609249a1be4c9145f429fe065e32",
+			"revisionTime": "2016-11-24T15:57:32Z"
+		},
+		{
+			"checksumSHA1": "DvwvOlPNAgRntBzt3b3OSRMS2N4=",
+			"path": "github.com/prometheus/client_model/go",
+			"revision": "fa8ad6fec33561be4280a8f0514318c79d7f6cb6",
+			"revisionTime": "2015-02-12T10:17:44Z"
+		},
+		{
+			"checksumSHA1": "mHyjbJ3BWOfUV6q9f5PBt0gaY1k=",
+			"path": "github.com/prometheus/common/expfmt",
+			"revision": "6d76b79f239843a04e8ad8dfd8fcadfa3920236f",
+			"revisionTime": "2016-12-20T17:45:53Z"
+		},
+		{
+			"checksumSHA1": "GWlM3d2vPYyNATtTFgftS10/A9w=",
+			"path": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"revision": "6d76b79f239843a04e8ad8dfd8fcadfa3920236f",
+			"revisionTime": "2016-12-20T17:45:53Z"
+		},
+		{
+			"checksumSHA1": "vopCLXHzYm+3l5fPKOf4/fQwrCM=",
+			"path": "github.com/prometheus/common/model",
+			"revision": "6d76b79f239843a04e8ad8dfd8fcadfa3920236f",
+			"revisionTime": "2016-12-20T17:45:53Z"
+		},
+		{
+			"checksumSHA1": "L+p4t3KrLDAKJnrreOz2BZIt9Mg=",
+			"path": "github.com/prometheus/procfs",
+			"revision": "fcdb11ccb4389efb1b210b7ffb623ab71c5fdd60",
+			"revisionTime": "2016-12-06T22:21:41Z"
+		},
+		{
+			"checksumSHA1": "aZfw+UVrxJnGGnyBRZXWaygJ0jo=",
+			"path": "github.com/skuid/helm-value-store/dynamo",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "4sAPMMUwYCX73EWZnqCMZBLLWHs=",
+			"path": "github.com/skuid/helm-value-store/store",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "68m45PzeKxQz+lVLEUJrpPCfEsI=",
+			"path": "github.com/skuid/spec",
+			"revision": "d9b65cb2e4e2fd67567c3830d0538a73bf8ed579",
+			"revisionTime": "2017-03-17T14:45:52Z"
+		},
+		{
+			"checksumSHA1": "W8duF0s0ntyNMS2JIHITMTfTjAA=",
+			"path": "github.com/skuid/spec/lifecycle",
+			"revision": "d9b65cb2e4e2fd67567c3830d0538a73bf8ed579",
+			"revisionTime": "2017-03-17T14:45:52Z"
+		},
+		{
+			"checksumSHA1": "bnOhBHIEH0ZImidgN9EhPv+xDWE=",
+			"path": "github.com/skuid/spec/metrics",
+			"revision": "d9b65cb2e4e2fd67567c3830d0538a73bf8ed579",
+			"revisionTime": "2017-03-17T14:45:52Z"
+		},
+		{
+			"checksumSHA1": "5KvHyB1CImtwZT3fwNkNUlc8R0k=",
+			"path": "github.com/spf13/pflag",
+			"revision": "9ff6c6923cfffbcd502984b8e0c80539a94968b7",
+			"revisionTime": "2017-01-30T21:42:45Z"
+		},
+		{
+			"checksumSHA1": "6NS7FWJl1FobB+Xfe4SzBGD+75g=",
+			"path": "go.uber.org/atomic",
+			"revision": "3b8db5e93c4c02efbc313e17b2e796b0914a01fb",
+			"revisionTime": "2016-12-15T19:56:52Z"
+		},
+		{
+			"checksumSHA1": "qHEUkiCrUOyvze9NcGOpOqiFtwM=",
+			"path": "go.uber.org/zap",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "HYo/9nwrY08NQA+2ItPOAH8IFW8=",
+			"path": "go.uber.org/zap/buffer",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "MuxOAtZEsJitlWBzhmpm2vGiHok=",
+			"path": "go.uber.org/zap/internal/bufferpool",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "uC0L9eCSAYcCWNC8udJk/t1vvIU=",
+			"path": "go.uber.org/zap/internal/color",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "b80CJExrVpXu3SA1iCQ6uLqTn2c=",
+			"path": "go.uber.org/zap/internal/exit",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "mpgG6h5iItTyTOjG1CsPGYb65bM=",
+			"path": "go.uber.org/zap/internal/multierror",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "eIsrYtjvQgZNI8iqhL0K8AOR7nI=",
+			"path": "go.uber.org/zap/zapcore",
+			"revision": "4257c7cf05477d92ec25c31cfd3d60e89575f18a",
+			"revisionTime": "2017-03-15T00:02:06Z"
+		},
+		{
+			"checksumSHA1": "TT1rac6kpQp2vz24m5yDGUNQ/QQ=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/cast5",
+			"path": "golang.org/x/crypto/cast5",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "IIhFTrLlmlc6lEFSitqi4aw2lw0=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp",
+			"path": "golang.org/x/crypto/openpgp",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "olOKkhrdkYQHZ0lf1orrFQPQrv4=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/armor",
+			"path": "golang.org/x/crypto/openpgp/armor",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "KsxFyUbL2BqNvs3h80/XtnpFlTo=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/clearsign",
+			"path": "golang.org/x/crypto/openpgp/clearsign",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "eo/KtdjieJQXH7Qy+faXFcF70ME=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/elgamal",
+			"path": "golang.org/x/crypto/openpgp/elgamal",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "rlxVSaGgqdAgwblsErxTxIfuGfg=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/errors",
+			"path": "golang.org/x/crypto/openpgp/errors",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "LWdaR8Q9yn6eBCcnGl0HvJRDUBE=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/packet",
+			"path": "golang.org/x/crypto/openpgp/packet",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "s2qT4UwvzBSkzXuiuMkowif1Olw=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/crypto/openpgp/s2k",
+			"path": "golang.org/x/crypto/openpgp/s2k",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "cdT+oqPhYKGf3r+HkPo51IauZnA=",
+			"path": "golang.org/x/net/http2",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "kyClpesDqa6LA7CFPGgKrX9NKkA=",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "GIGmSrYACByf5JDIP9ByBZksY80=",
+			"path": "golang.org/x/net/idna",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "UxahDzW2v4mf/+aFxruuupaoIwo=",
+			"path": "golang.org/x/net/internal/timeseries",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "3xyuaSNmClqG4YWC7g0isQIbUTc=",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "GQHKESPeCcAsnerZPtHadvKUIzs=",
+			"path": "golang.org/x/net/trace",
+			"revision": "a6577fac2d73be281a500b310739095313165611",
+			"revisionTime": "2017-03-08T20:54:49Z"
+		},
+		{
+			"checksumSHA1": "faFDXp++cLjLBlvsr+izZ+go1WU=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/text/secure/bidirule",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/text/transform",
+			"path": "golang.org/x/text/transform",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "VoN1N+QSzZGXJuTX2mVH7fAUXNM=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/text/unicode/bidi",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Vircurgvsnt4k26havmxPM67PUA=",
+			"origin": "github.com/skuid/helm-value-store/vendor/golang.org/x/text/unicode/norm",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "D9M/719krq7NJYQu523UODpBKcI=",
+			"path": "google.golang.org/grpc",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "08icuA15HRkdYCt6H+Cs90RPQsY=",
+			"path": "google.golang.org/grpc/codes",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "Vd1MU+Ojs7GeS6jE52vlxtXvIrI=",
+			"path": "google.golang.org/grpc/credentials",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "3Lt5hNAG8qJAYSsNghR5uA1zQns=",
+			"path": "google.golang.org/grpc/grpclog",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "T3Q0p8kzvXFnRkMaK/G8mCv6mc0=",
+			"path": "google.golang.org/grpc/internal",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "P64GkSdsTZ8Nxop5HYqZJ6e+iHs=",
+			"path": "google.golang.org/grpc/metadata",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "4GSUFhOQ0kdFlBH4D5OTeKy78z0=",
+			"path": "google.golang.org/grpc/naming",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "3RRoLeH6X2//7tVClOVzxW2bY+E=",
+			"path": "google.golang.org/grpc/peer",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "HQJrtiTtr5eiRsXQLut2R1Q9kuY=",
+			"path": "google.golang.org/grpc/transport",
+			"revision": "b7f1379d3cbbbeb2ca3405852012e237aa05459e",
+			"revisionTime": "2016-10-17T23:02:05Z"
+		},
+		{
+			"checksumSHA1": "0KwOlQV1dNUh9X8t+5s7nX5bqfk=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "a3f3340b5840cee44f372bddb5880fcbc419b46a",
+			"revisionTime": "2017-02-08T14:18:51Z"
+		},
+		{
+			"checksumSHA1": "jzKMZTxr1uy5xdOxdLbETkRWe8w=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/cmd/helm/helmpath",
+			"path": "k8s.io/helm/cmd/helm/helmpath",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "Y8xjVggcUvtOAWaDZrrtqqHUu4s=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/cmd/helm/resolver",
+			"path": "k8s.io/helm/cmd/helm/resolver",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "JNlYquffH4vLAj4du87IT/P24nw=",
+			"path": "k8s.io/helm/pkg/chartutil",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "CnOW9qRkW0nrznBzPJFigQEcFiU=",
+			"path": "k8s.io/helm/pkg/helm",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "DMwBqTHLy2b207GQkqd4yGLvUoU=",
+			"path": "k8s.io/helm/pkg/ignore",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "2CU+ovT5B/xAZcRbQziaun6Vq78=",
+			"path": "k8s.io/helm/pkg/proto/hapi/chart",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "cm82B0dH5C/nfkmLbjXj+FtI/+I=",
+			"path": "k8s.io/helm/pkg/proto/hapi/release",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "Flwwel1NtXaFp8MAkPeMiuyTU3g=",
+			"path": "k8s.io/helm/pkg/proto/hapi/services",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "2VKsMrVvQAqR1L3VodzXruT9Urw=",
+			"path": "k8s.io/helm/pkg/proto/hapi/version",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "a9TdezPle3pbFiuFA6iynS63bbI=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/pkg/provenance",
+			"path": "k8s.io/helm/pkg/provenance",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "2UnkcCsrVi97eSJMa2jqFTRjoYk=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/pkg/repo",
+			"path": "k8s.io/helm/pkg/repo",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "b5PCEXkkUDmm/zXkXE44PecMwCU=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/pkg/strvals",
+			"path": "k8s.io/helm/pkg/strvals",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "v09tQ/pEnQ2JvEgslmK39+jCxSU=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/pkg/tlsutil",
+			"path": "k8s.io/helm/pkg/tlsutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "4jCAb5Uo1Y44F6rnIX3jIGWx4Ws=",
+			"origin": "github.com/skuid/helm-value-store/vendor/k8s.io/helm/pkg/urlutil",
+			"path": "k8s.io/helm/pkg/urlutil",
+			"revision": "f1679c35d8e1d304a20b34d7177414167ec4d8d2",
+			"revisionTime": "2017-03-17T16:33:38Z"
+		},
+		{
+			"checksumSHA1": "uoRAv68kaFCzKA00kDXVGIiF90Q=",
+			"path": "k8s.io/helm/pkg/version",
+			"revision": "1402a4d6ec9fb349e17b912e32fe259ca21181e3",
+			"revisionTime": "2017-03-16T18:37:00Z"
+		},
+		{
+			"checksumSHA1": "hqBK60j6ahOnfxlf+UZ7Opp4tN4=",
+			"path": "k8s.io/kubernetes/pkg/version",
+			"revision": "7243c69eb523aa4377bce883e7c0dd76b84709a1",
+			"revisionTime": "2017-03-07T23:32:43Z"
+		}
+	],
+	"rootPath": "github.com/skuid/helm-value-store-controller"
+}
